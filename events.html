@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RNB Cards</title>
+
+    <!-- Link to Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- a Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- ADD ALL YOUR CONTENT HERE, ABOVE THE <script> ELEMENTS BELOW. Don't forget to wrap everything in a .container or .container-fluid! After that: rows, columns, and content.  -->
+
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mobile-menu">
+                <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
+                    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="mycart.html">My Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>RNB CARDS</h1>
+            <nav class="navbar navbar-light bg-light searchBar">
+                <i class="fas fa-search"></i>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 searchBox" type="text" placeholder="Search for Cards">
+                </form>
+            </nav>
+            <div class="desktop-playArea">
+                <h2>OPEN PLAY AREAS AVAILABLE</h2>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light desktop-menu">
+            <a class="navbar-brand" href="index.html">Catalog</a>
+            <a class="navbar-brand" href="events.html">Events</a>
+            <a class="navbar-brand" href="mycart.html">My Cart</a>
+        </nav>
+
+        <div class="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FNew_York&amp;src=cm5iY2FyZHNob3BAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2322AA99&amp;color=%23329262&amp;color=%231F753C&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=1&amp;showDate=1" style="border:solid 1px #777" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="eventText">
+            <div class="events">
+                <h5 class="eventHeader">Upcoming Events</h5>
+                <p>
+                    Magic Fridays: Every Week at 6:00PM
+                    <br>
+                    YuGiOh Draft: Every Monday at 6:00PM
+                    <br>
+                    Pokémon Draft: Every Thursday at 6:00PM
+                    <br>
+                </p>
+            </div>
+            <div class="tournaments">
+                <h5 class="tournamentHeader">Upcoming Tournaments</h5>
+                <p>
+                    Magic Tournament: November 25 at 8:00PM
+                    <br>
+                    Pokémon Tournament: November 30 at 10:00AM
+                    <br>
+                </p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light footer">
+            <a class="navbar-brand">Address: 123 Elm Street, Pineville, NC</a>
+            <a class="navbar-brand">Phone Number: (123) 456-7890</a>
+            <a class="navbar-brand">Email: RNBCardShop@RNB.com</a>
+        </nav>
+
+    <!-- NECESSARY <script> LINKS. The three <script> links below add jQuery, popper.js, and Bootstrap 4 JavaScript. These are libraries of scripts that are necessary to make Bootstrap's interactive and animated components work (e.g., dropdown menus, buttons, alerts, carousels, collapsing navbars and content areas, modals, popups, tooltips, etc). These three <script> links MUST appear in THIS ORDER; this is because both popper.js and the Bootstrap scripts rely on jQuery to work, so jQuery must load into your page first. We add these links at the bottom of the <body> element instead of in the <head> element so the scripts won't be loaded into your site until they're needed, which helps with your site's speed and functionality. -->
+
+    <!-- jQuery--this must come first! -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- popper.js--a library of drop-down and pop-up JavaScript scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <!-- unique Bootstrap 4 JavaScript scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body></html>

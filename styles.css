@@ -1,0 +1,365 @@
+h1 {
+    font-family: Source Sans Pro;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Agency FB;
+    font-size: 2.625em;
+}
+
+h6 {
+    font-family: Agency FB;
+    font-size: 1.50em;
+    color: #523E2F;
+}
+
+body {
+    background-color: #E7D2A4;
+}
+
+#card-columns {
+    width: 25%;
+    column-count: 1;
+}
+
+.card {
+    width: 100%;
+}
+
+.catalog {}
+
+#desktop-searchCards {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.searchBox {
+    background-color: #E7D2A4;
+    border: 0;
+}
+
+.fa-search {
+    margin-right: 0.25em;
+    margin-top: 0.1em;
+}
+
+.bg-light {
+    background-color: #523E2F !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    font-size: 1.25em;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-light .navbar-brand:focus {
+    color: white;
+}
+
+.mr-3 {
+    width: 20% !important;
+    height: auto !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.shoppingButton {
+    margin-right: 4em;
+    margin-top: 4em;
+}
+
+.form-check-label {
+    font-family: Agency FB;
+    font-size: 1.1em;
+}
+
+.media-body {
+    font-family: Agency FB;
+    font-size: 1.15em;
+}
+
+.media {
+    width: 80%;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mt-0 {
+    font-weight: bold;
+}
+
+.desktop-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.desktop-playArea {
+    display: flex;
+}
+
+.searchBar {
+    align-self: flex-start;
+    background-color: #E7D2A4 !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 1em;
+    background-color: #523E2F !important;
+    margin-top: 1em;
+}
+
+.desktop-addToCart {
+    display: inline-block;
+}
+
+.filter {
+    display: none;
+}
+
+.mobile-addToCart {
+    display: none;
+}
+
+.mobile-playArea {
+    display: none;
+}
+
+.btn {
+    background-color: #523E2F;
+    font-family: Agency FB;
+    font-size: 1.5em;
+}
+
+.btn:hover {
+    color: #fcd144;
+    background-color: #523E2F;
+}
+
+.btn:active {
+    color: #8eaadb;
+    background-color: #523E2F;
+}
+
+.modal-header {
+    font-family: Agency FB;
+}
+
+.modal-body {
+    font-family: Agency FB;
+    font-size: 1.15em;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eventText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tournamentHeader {
+    font-size: 1.5em;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.eventHeader {
+    font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.tournaments {
+    text-align: right;
+}
+
+.calendar {
+    margin-top: 1em;
+}
+
+.desktop-quantityBar {
+    display: flex;
+    margin-right: 4em;
+    background-color: transparent !important;
+    padding: 0;
+}
+
+.quantityBox {
+    background-color: transparent !important;
+    border: 1px solid #ced4da;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantityText {
+    font-family: Agency FB;
+    font-size: 1.5em;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.total-cost {
+    font-family: Agency FB;
+    font-size: 2em;
+    margin-top: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        margin-top: 7px;
+    }
+
+    header {
+        background-color: #523E2F;
+        color: white;
+    }
+
+    .mobile-menu {
+        background-color: #E7D2A4 !important;
+        display: flex;
+        font-family: Source Sans Pro;
+        font-size: 1em;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .desktop-playArea {
+        display: none;
+    }
+
+    .desktop-addToCart {
+        display: none;
+    }
+
+    .mobile-addToCart {
+        display: inline-flex;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .catalog {
+        display: flex;
+        align-items: center;
+    }
+
+    #card-columns {
+        width: 100%;
+        display: none;
+    }
+
+    .filter {
+        display: inline-block;
+    }
+
+    .mobile-playArea {
+        display: flex;
+    }
+
+    .mobile-searchCards {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mr-3 {
+        width: 25% !important;
+        height: auto !important;
+    }
+
+    .searchBox {
+        background-color: #523E2F;
+    }
+
+    .bg-light {
+        background-color: #E7D2A4;
+    }
+
+    .searchBar {
+        background-color: #523E2F !important;
+    }
+
+    .list-group {
+        width: 100%;
+        align-items: center;
+    }
+
+    .list-group-item {
+        flex-wrap: wrap;
+    }
+
+    .mobile-shoppingButton {
+        margin-top: 0.5em;
+    }
+
+    .media {
+        width: 100%;
+    }
+
+    .shoppingButton {
+        display: none;
+    }
+
+    .eventText {
+        display: block;
+    }
+
+    .events {
+        text-align: center;
+    }
+
+    .eventHeader {
+        text-align: center;
+    }
+
+    .tournaments {
+        text-align: center;
+    }
+
+    .tournamentHeader {
+        text-align: center
+    }
+
+    .quantityText {
+        margin-top: 7px;
+    }
+
+    .desktop-quantityBar {
+        margin-top: 5px;
+    }
+}
