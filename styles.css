@@ -234,6 +234,16 @@ header {
     margin-top: 2px;
 }
 
+.headerLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.headerLink:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 2em;
