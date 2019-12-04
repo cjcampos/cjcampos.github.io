@@ -115,13 +115,12 @@ header {
     background-color: #E7D2A4 !important;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+footer {
+    display: flex!important;
+    justify-content: space-around!important;
+    flex-wrap: wrap!important;
     color: white;
     margin-bottom: 1em;
-    background-color: #523E2F !important;
     margin-top: 1em;
 }
 
