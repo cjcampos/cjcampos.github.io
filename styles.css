@@ -197,7 +197,6 @@ footer {
 
 .desktop-quantityBar {
     display: flex;
-    margin-right: 4em;
     background-color: transparent !important;
     padding: 0;
 }
@@ -241,6 +240,19 @@ footer {
 .headerLink:hover {
     color: inherit;
     text-decoration: inherit;
+}
+
+.cartImg {
+    width: 30%!important;
+}
+
+.cardCart {
+    display: flex;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media only screen and (max-width: 768px) {
@@ -370,5 +382,14 @@ footer {
 
     .desktop-quantityBar {
         margin-top: 5px;
+    }
+    
+    .cartImg {
+        width: 30%!important;
+    }
+    
+    .cartItem {
+        display: flex;
+        justify-content: space-around;
     }
 }
