@@ -224,6 +224,17 @@ footer {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0;
+}
+
+.total-cost-area {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-button-area {
+    display: flex;
+    justify-content: center;
 }
 
 .total-cost {
@@ -253,6 +264,10 @@ footer {
 .cartItem {
     display: flex;
     justify-content: space-around;
+}
+
+.event-mobile {
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -391,5 +406,13 @@ footer {
     .cartItem {
         display: flex;
         justify-content: space-around;
+    }
+    
+    .event-mobile {
+        display: block;
+    }
+    
+    .event-desktop {
+        display: none;
     }
 }
